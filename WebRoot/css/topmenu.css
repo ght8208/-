@@ -1,0 +1,163 @@
+div{
+	border:0px solid red;
+	margin:0 auto;
+}
+.toptop{
+	background-color:#eee;
+	width:100%px;
+	height:165px;
+}
+
+.top-box {
+    width: 1200px;
+    height: 145px;
+    background: url() repeat-x;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 6;
+    
+}
+
+.top {
+    width: 1200px;
+    height: 145px;
+    margin: 0 0 0 140px;
+}
+.top-right {
+    float: right;
+}
+
+.top-admin {
+    font: normal 14px/32px "Microsoft Yahei";
+    margin-top: 16px;
+    padding-right: 14px;
+    float: right;
+    margin-bottom: 15px;
+}
+.top-userstatus {
+    float: left;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+.top-admin.top-userstatus a {
+    float: left;
+    color: #fff;
+    text-shadow: #666 1px 1px 0;
+}
+#back_menu
+{
+ height:50px;
+ width:1348px;
+ margin:72px 0 0 0;
+ 
+}
+#menu
+{
+  font-family: "Î¢ÈíÑÅºÚ","ÎÄÈªæäÕýºÚ","ºÚÌå";
+  font-size:15px;
+  line-height:1.5;
+  height:50px;
+  width:680px;
+  background:transparent;
+  margin:0 0 0 500px; 
+  font-weight:bold;
+  
+}
+ #menu ul
+{
+    margin:0 0 0 0;
+    padding:0;
+    list-style:none;
+    width:900px;
+    
+    position:relative;
+    
+}
+#menu ul li
+{
+    background:transparent;    
+    height:50px;
+    line-height:50px;
+    
+    text-align:center;
+    float:left;
+    width:80px;
+    margin-right:5px   
+}
+#menu ul li a
+{
+    color:#000;
+    text-decoration:none;
+    display:block;
+    width:80px;
+    height:50px;
+    border-bottom:1px solid #ccc;
+    margin:0 0 0 0;
+   
+}
+#menu ul li a:hover
+{
+      color:#FFFAFA;
+      position:relative;
+      left:0px;
+      top:5px;
+      padding:0 0 0 5px;   
+      
+}
+
+#menu ul li ul
+{ 
+ display:none;
+ width:80px;
+}
+#menu ul li.listshow ul
+{
+ display:block;
+ }
+#menu ul li ul li
+{
+float:none;
+width:80px;
+margin:0;
+background-color:#AAA;
+background:rgba(255,255,255,0.6);
+}
+#menu ul li ul li a
+{
+ background:none;
+ width:80px;
+}
+#menu ul li ul li a:hover
+{
+
+ color:#FFFAFA;
+
+}
+#menu ul li >#logo
+{
+height:50px;
+width:51px;
+background-image:url("../img/timg.png");
+margin:0 auto;
+border:0px;
+}
+
+/* .vedio-cloud-background{
+	border:1px solid black;
+	width:1885px;
+	height:600px;
+	float:left;
+	position:absolute;
+} */
+.button1{
+	padding-left:80px;
+	background-image:url('../images/button/bofang.png')  no-repeat left;
+	border:0;
+	cursor:pointer;
+	height:100px;
+	}

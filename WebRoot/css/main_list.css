@@ -1,0 +1,549 @@
+﻿@CHARSET "UTF-8";
+body {
+    font-family: Arial,"SimSun";
+    min-width: 1200px;
+    font-size: 12px;
+}
+
+div {
+    display: block;
+}
+
+.header {
+	/*border:1px solid black;*/
+    width: 100%;
+    height: 636px;
+    position: relative;
+}
+
+.top-box {
+	background-color:#eee;
+	
+    width: 100%;
+    height: 145px;
+    background: url() repeat-x;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index:999;
+}
+
+.top {
+    width: 1200px;
+    height: 145px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 212px;
+    height: 57px;
+    background: url() no-repeat;
+    float: left;
+    margin: 15px 0 0 40px;
+}
+
+.top-right {
+    float: right;
+}
+
+.top-admin {
+    font: normal 14px/32px "Microsoft Yahei";
+    margin-top: 16px;
+    padding-right: 14px;
+    float: right;
+    margin-bottom: 15px;
+}
+.top-image{
+	float: left;
+}
+.top-userstatus {
+    float: left;
+    color:#fff;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+.top-admin.top-userstatus a {
+    float: left;
+    color: #fff;
+    text-shadow: #666 1px 1px 0;
+}
+
+
+.nav {
+    clear: both;
+    margin: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.nav li {
+    float: left;
+    font: normal 16px/18px "Microsoft Yahei";
+    padding: 0 13px 0 13px;
+}
+
+
+
+.content {
+	/*border:1px solid black;*/
+	min-height:0 auto;
+   
+}
+.content-title{
+	/*border:1px solid black;*/
+	width:522px;
+	height:117px;
+	margin:0px auto;
+}
+
+.beauty-box{
+	width:100%;
+	margin-bottom:115px;
+}
+
+.beauty{
+	width:1200px;
+	margin:0 auto;
+}
+
+.beauty-title {
+	/*border:1px solid black;*/
+    width: 100%;
+    height: 80px;
+   
+}
+
+.beauty-change{
+	/*border:1px solid black;*/
+    width: 1200px;
+    height: 402px;
+    overflow: hidden;
+    position: relative;
+}
+
+.raiders-box {
+    width: 100%;
+    padding-bottom: 96px;
+}
+
+
+
+.vedio-cloud-box {
+	/*border:1px solid black;*/
+    width: 100%;
+    height: 600px;
+    background:url(../images/vedio-back 1.JPG) no-repeat 4px 5px
+}
+
+.vedio-cloud {
+	/*border:1px solid black;*/
+    width: 1200px;
+    height: 545px;
+    margin: 30px 150px 10px 330px;
+    text-align: center;
+}
+
+.video-cloud a i.ico-video {
+	/*border:1px solid black;*/
+    width: 66px;
+    height: 66px;
+    background: url() no-repeat;
+    transition: 500ms;
+}
+
+
+
+.footer-box {
+	/*border:1px solid black;*/
+    width: 100%;
+    height: 190px;
+    padding-top: 10px;
+    overflow: hidden;
+    border-bottom: 3px solid #ae8f18;
+    background: #454545 url() repeat;
+}
+
+.footer {
+    width: 1000px;
+    height: 170px;
+    margin: 0 auto;
+    padding: 24px 100px 0;
+}
+
+.footer-logo {
+    width: 151px;
+    height: 64px;
+    float: left;
+    background: url() no-repeat;
+    margin: 0 20px 8px 5px;
+}
+
+.copyright {
+    float: left;
+}
+
+
+.copyright p {
+    font: normal 18px/18px "Microsoft Yahei";
+    color: #909090;
+}
+p {
+    word-break: break-all;
+}
+.change_images {
+	position: absolute;
+	border: 1px solid red;
+	top: 600px;
+	text-align: center;
+	width: 100%;
+}
+.images img {
+	float: left;
+}
+.hidden{
+	display:none;
+}
+//切换图片按钮区样式
+.change_images {
+	position: absolute;
+	border: 1px solid red;
+	top: 600px;
+	text-align: center;
+	width: 100%;
+}
+.change_images input{
+	
+	width: 10px;
+    height: 10px;      
+    
+    border-radius: 50%;      
+    -moz-border-radius: 50%;      
+    -webkit-border-radius: 50%;  
+	border: 0;
+	cursor: pointer;
+	margin-right:10px;
+}
+.change
+       {
+	   background-color:#00ccff;
+       }
+
+
+#back_menu
+{
+ height:50px;
+ width:1348px;
+ margin:72px 0 0 0;
+ position:relative;
+ z-index:99999;
+}
+#menu
+{
+  font-family: "微软雅黑","文泉驿正黑","黑体";
+  font-size:20px;
+  line-height:1.5;
+  height:50px;
+  width:680px;
+  background:transparent;
+  margin:0 0 0 670px; 
+  font-weight:bold;
+  position:relative;
+  left:-120px;
+   
+}
+ ul
+{
+    margin:0 0 0 0;
+    padding:0;
+    list-style:none;
+    width:900px;
+    
+    
+}
+#menu ul li
+{
+    background:transparent;    
+    height:50px;
+    line-height:50px;
+    
+    text-align:center;
+    float:left;
+    width:80px;
+    margin-right:20px   
+}
+#menu ul li a
+{
+    color:#000;
+    text-decoration:none;
+    display:block;
+    width:80px;
+    height:50px;
+    border-bottom:1px solid #ccc;
+    margin:0 0 0 0;
+   
+}
+#menu ul li a:hover
+{
+      color:#FFFAFA;
+      position:relative;
+      left:0px;
+      top:5px;
+      padding:0 0 0 5px;   
+      
+}
+
+#menu ul li ul
+{ 
+ display:none;
+ width:80px;
+}
+#menu ul li.listshow ul
+{
+ display:block;
+ }
+#menu ul li ul li
+{
+background-color:#AAA;
+background:rgba(255,255,255,0.6);
+float:none;
+width:80px;
+margin:0;
+}
+#menu ul li ul li a
+{
+ background:none;
+ width:80px;
+}
+#menu ul li ul li a:hover
+{
+
+ color:#FFFAFA;
+
+}
+#menu ul li >#logo
+{
+height:50px;
+width:51px;
+background-image:url("../img/timg.png");
+margin:0 auto;
+border:0px;
+}
+first_image img{
+	width:100%;
+}
+.main{
+/*border:1px solid black;*/
+margin:10px auto;
+width:1320px;
+height:880px;
+}
+.child1{
+/*border:1px solid black;*/
+width:600px;
+height:400px;
+position:relative;
+margin:20px 30px;
+padding:0px;
+}
+.child2{
+/*border:1px solid black;*/
+width:600px;
+height:400px;
+position:relative;
+margin:20px 30px;
+padding:0px;
+top:-420px;
+left:660px;
+}
+.child3{
+/*border:1px solid black;*/
+width:600px;
+height:400px;
+position:relative;
+margin:20px 30px;
+padding:0px;
+top:-400px;
+}
+.child4{
+/*border:1px solid black;*/
+width:600px;
+height:400px;
+position:relative;
+margin:20px 30px;
+padding:0px;
+top:-820px;
+left:660px;
+}
+
+.back{
+	background-color: #eaeae8;
+	width: 100%;
+	
+}
+
+.core {
+	/*border:1px solid black;*/
+	width: 1335px;
+	height: 620px;
+	margin: 10px auto;
+	padding-top: 150px;
+	background-color: #eaeae8;
+}
+
+.raider-title{
+/*border:1px solid black;*/
+	position:relative;
+	width:520px;
+	height:115px;
+	margin:0px auto;
+	z-index:999;
+}
+
+.img1 {
+	border: 2px solid grey;
+	width: 840px;
+	height: 260px;
+	position: relative;
+	top: 5px;
+	left: 0px;
+	background-image: url(../images/bottom/01.jpg);
+	float:left;
+	margin:20px;
+}
+.img2{
+    border: 2px solid grey;
+	width: 400px;
+	height: 260px;
+	position: relative;
+	top: 5px;
+	left: 0px;
+	background-image: url(../images/bottom/02.jpg);
+	float:left;
+	margin:20px;
+}
+.img3{
+    border: 2px solid grey;
+	width: 400px;
+	height: 260px;
+	position: relative;
+	top: 5px;
+	left: 0px;
+	background-image: url(../images/孤山.jpg);
+	float:left;
+	margin:20px;
+}
+
+.img4{
+    border: 2px solid grey;
+	width: 400px;
+	height: 260px;
+	position: relative;
+	top: 5px;
+	left: 0px;
+	background-image: url(../images/古.png);
+	float:left;
+	margin:20px;
+}
+
+.img5{
+    border: 2px solid grey;
+	width: 400px;
+	height: 260px;
+	position: relative;
+	top: 5px;
+	left: 0px;
+	background-image: url(../images/bottom/05.jpg);
+	float:left;
+	margin:20px;
+}
+.p1{
+color: #FFF; 
+position: relative; 
+opacity: 0; 
+font-weight: bold;
+width:280px;
+}
+
+
+
+
+
+
+
+.top
+{
+
+   height:653px;
+   width:100%;
+   position: relative;
+}
+.first_image {   
+
+	top: 5px;
+	width: 100%;
+	height: 636px;
+    position: absolute;
+    
+}
+.change_images{
+    position:absolute;
+    top:630px;
+	
+	text-align: center;
+	width:100%;
+}
+
+.change_images input{
+	width: 10px;
+    height: 10px;      
+    border-radius: 50%;      
+    -moz-border-radius: 50%;      
+    -webkit-border-radius: 50%;  
+	border: 0;
+	cursor: pointer;
+	margin-right:10px;
+}
+
+.change
+       {
+	   background-color:#00ccff;
+       }
+
+.header{
+height:700px;
+margin-bottom:40px;
+}
+.music{
+position:absolute;
+margin:20px;
+border:4px solid red;
+
+}
+.first_image img{
+width:100%;
+}
+.core{
+	height:800px;
+	padding-top:50px;
+}
+
+.vedio-cloud-background{
+	/*border:1px solid black;*/
+	width:1885px;
+	height:600px;
+	float:left;
+	position:absolute;
+}
+.button{
+	padding-left:80px;
+	background:url(../images/播放器.png) no-repeat left;
+	border:0;
+	cursor:pointer;
+	height:100px;
+}

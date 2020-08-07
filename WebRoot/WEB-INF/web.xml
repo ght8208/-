@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>servlets.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegServlet</servlet-name>
+    <servlet-class>servlets.RegServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PersonalServlet</servlet-name>
+    <servlet-class>servlets.PersonalServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddGoodsServlet</servlet-name>
+    <servlet-class>servlets.AddGoodsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddToCart</servlet-name>
+    <servlet-class>servlets.AddToCart</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BuyServlet</servlet-name>
+    <servlet-class>servlets.BuyServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAllGoodsServlet</servlet-name>
+    <servlet-class>servlets.GetAllGoodsServlet</servlet-class>
+  </servlet>
+     <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProcessCart</servlet-name>
+    <servlet-class>servlets.ProcessCart</servlet-class>
+  </servlet>
+       <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowGoods</servlet-name>
+    <servlet-class>servlets.ShowGoods</servlet-class>
+  </servlet>
+       <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateGoodsInfo</servlet-name>
+    <servlet-class>servlets.UpdateGoodsInfo</servlet-class>
+  </servlet>
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateUserInfoServlet</servlet-name>
+    <servlet-class>servlets.UpdateUserInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>showGoodsInfo</servlet-name>
+    <servlet-class>servlets.showGoodsInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyUserServlet</servlet-name>
+    <servlet-class>servlets.ModifyUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyGUserServlet</servlet-name>
+    <servlet-class>servlets.ModifyGUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Modifyordertable</servlet-name>
+    <servlet-class>servlets.Modifyordertable</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddplaceServlet</servlet-name>
+    <servlet-class>servlets.AddplaceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Searchservlet</servlet-name>
+    <servlet-class>servlets.Searchservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAllGoodsServlet1</servlet-name>
+    <servlet-class>servlets.GetAllGoodsServlet1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyplaceServlet</servlet-name>
+    <servlet-class>servlets.ModifyplaceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Addtehuiyou</servlet-name>
+    <servlet-class>servlets.Addtehuiyou</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Addjiudian</servlet-name>
+    <servlet-class>servlets.Addjiudian</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Addluntanbk</servlet-name>
+    <servlet-class>servlets.Addluntanbk</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Addluntantz</servlet-name>
+    <servlet-class>servlets.Addluntantz</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Addluntanly</servlet-name>
+    <servlet-class>servlets.Addluntanly</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Addxinwen</servlet-name>
+    <servlet-class>servlets.Addxinwen</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Modifytehuiyou</servlet-name>
+    <servlet-class>servlets.Modifytehuiyou</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Modifyjiudian</servlet-name>
+    <servlet-class>servlets.Modifyjiudian</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Modifyxinwen</servlet-name>
+    <servlet-class>servlets.Modifyxinwen</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Modifybankuai</servlet-name>
+    <servlet-class>servlets.Modifybankuai</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Modifytiezi</servlet-name>
+    <servlet-class>servlets.Modifytiezi</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Modifyliuyan</servlet-name>
+    <servlet-class>servlets.Modifyliuyan</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegServlet</servlet-name>
+    <url-pattern>/RegServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PersonalServlet</servlet-name>
+    <url-pattern>/PersonalServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddGoodsServlet</servlet-name>
+    <url-pattern>/AddGoodsServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>AddToCart</servlet-name>
+    <url-pattern>/AddToCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyServlet</servlet-name>
+    <url-pattern>/BuyServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>GetAllGoodsServlet</servlet-name>
+    <url-pattern>/GetAllGoodsServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>ProcessCart</servlet-name>
+    <url-pattern>/ProcessCart</url-pattern>
+  </servlet-mapping>	
+     <servlet-mapping>
+    <servlet-name>ShowGoods</servlet-name>
+    <url-pattern>/ShowGoods</url-pattern>
+  </servlet-mapping>
+       <servlet-mapping>
+    <servlet-name>UpdateGoodsInfo</servlet-name>
+    <url-pattern>/UpdateGoodsInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateUserInfoServlet</servlet-name>
+    <url-pattern>/UpdateUserInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showGoodsInfo</servlet-name>
+    <url-pattern>/showGoodsInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyUserServlet</servlet-name>
+    <url-pattern>/ModifyUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyGUserServlet</servlet-name>
+    <url-pattern>/ModifyGUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Modifyordertable</servlet-name>
+    <url-pattern>/Modifyordertable</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddplaceServlet</servlet-name>
+    <url-pattern>/AddplaceServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Searchservlet</servlet-name>
+    <url-pattern>/Searchservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllGoodsServlet1</servlet-name>
+    <url-pattern>/GetAllGoodsServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyplaceServlet</servlet-name>
+    <url-pattern>/ModifyplaceServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Addtehuiyou</servlet-name>
+    <url-pattern>/Addtehuiyou</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Addjiudian</servlet-name>
+    <url-pattern>/Addjiudian</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Addluntanbk</servlet-name>
+    <url-pattern>/Addluntanbk</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Addluntantz</servlet-name>
+    <url-pattern>/Addluntantz</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Addluntanly</servlet-name>
+    <url-pattern>/Addluntanly</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Addxinwen</servlet-name>
+    <url-pattern>/Addxinwen</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Modifytehuiyou</servlet-name>
+    <url-pattern>/Modifytehuiyou</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Modifyjiudian</servlet-name>
+    <url-pattern>/Modifyjiudian</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Modifyxinwen</servlet-name>
+    <url-pattern>/Modifyxinwen</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Modifybankuai</servlet-name>
+    <url-pattern>/Modifybankuai</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Modifytiezi</servlet-name>
+    <url-pattern>/Modifytiezi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Modifyliuyan</servlet-name>
+    <url-pattern>/Modifyliuyan</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

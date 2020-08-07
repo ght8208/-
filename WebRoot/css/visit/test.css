@@ -1,0 +1,240 @@
+@CHARSET "UTF-8";
+.search{
+	height: 25px;
+	width: 300px;
+	text-align:center;
+	left:310px;
+	position:absolute;
+	display: block; /*将form设置为块体元素*/
+	/* border: solid red; */
+}
+.quicks{
+    height:18px;
+    width:13px;
+	background-image:url('/wenq/images/icon/search.png') ;
+	background-repeat:no-repeat;
+	top:2px;
+	position:relative;
+	/* border: solid red; */
+}
+.tdbottom{
+	bottom:25px;
+	position:relative;
+}
+.yuanjia{
+	color:grey;
+	font-size:16px;
+}
+.cuxiao{
+	color:red;
+	font-size:16px;
+}
+
+
+.webmid{
+	/* 不设置长度和高度容纳空间 */
+	/* 不设置高度，div的高度随之变化 */
+	height:auto;
+    width:100%;
+    border: solid red;
+	/* border: solid red; */ 
+}
+.webmid-left{
+	height:800px;
+	width:300px;
+	float:left;
+	border: solid red;
+	
+}
+
+/* .divtab{
+	width:610px;
+	bottom:780px;
+	left:360px;
+	position:relative;
+	display:inline-block; 注意此处采用行内元素的方式 
+	
+	border: solid red;
+	border: solid red;
+} */
+.tab {
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+	margin: auto;
+	display:inline-block;
+	/* border: solid red; */ 
+}
+
+tr {
+	display: block; /*将tr设置为块体元素*/
+	margin: 40px 0; /*设置tr间距为30px*/
+}
+
+.tdleft {
+	background-color: white;
+	box-shadow: 6px 6px 5px #888888;
+	
+	/* border: solid red; */
+}
+
+.pic { 
+	/* border: solid red; */
+}
+
+.show {
+	height: 200px;
+	width: 300px;
+	/* border: solid red; */
+}
+
+.tdleft-bottom {
+	height: 66px;
+	width: 300px;
+	/* border: solid red; */
+}
+
+.name {
+	padding: 15px;
+	height: 30px;
+	width: 220px;
+	font-size:16px;
+	/* border: solid red; */
+}
+
+.hot {
+	height: 20px;
+	width: 20px;
+	left: 270px;
+	bottom: 45px;
+	position: relative;
+	/* border: solid red; */
+}
+
+.fire {
+	height: 20px;
+	width: 20px;
+}
+
+.tdright {
+	height: 272px;
+	width: 300px;
+	/* border: solid red; */
+}
+
+.tdright-top {
+	height: 40px;
+	width: 300px;
+	background-color: white;
+	box-shadow: 6px 6px 5px #888888;
+	/* border: solid grey 0.5px; */
+}
+
+.loca {
+	padding-left: 10px; /* 左边空出10px的间距*/
+	height: 40px;
+	width: 100px;
+	font-size:16px;
+	/* border: solid red; */
+}
+
+.look {
+	height: 30px;
+	width: 80px;
+	left: 190px;
+	bottom: 38px;
+	position: relative;
+	/* border: solid red; */  
+	
+}
+.lookbt{
+	height: 30px;
+	width: 80px;
+	/* border: solid red; */
+}
+.lookbt:hover{
+	box-shadow: 4px 4px 5px #888888;
+}
+.lookwz{
+	left: 9px;
+	top: 5px;
+	position:absolute;
+	z-indent:2;/* 文字在图片的上一层 */
+	color:black;
+	font-size:14px;
+	/* border: solid red; */ 
+}
+.lookwz:hover{
+	color:white;
+}
+.tdright-bottom {
+	height: 228px;
+	width: 300px;
+	background-color: white;
+	box-shadow: 6px 6px 5px #888888;
+	/* border: solid red; */
+}
+
+.intro {
+	padding-left: 10px;
+	height: 228px;
+	width: 250px;
+	font-size:16px;
+	/* border: solid grey 0.5px; */
+}
+
+
+.webmid-right{
+    height: 800px;
+	width: 330px;
+	/* left:950px;
+	bottom:310px;
+	position:relative; */
+	display:inline-block; /* 注意此处采用行内元素的方式  */
+	border: solid red;
+	/* border: solid red; */
+}
+.webmid-right-top{
+	height: 350px;
+	width: 280px;
+	background-color: white;
+	box-shadow: 1px 1px 2px #888888;
+	/* border: solid red; */
+}
+.webmid-right-bottom{
+	height: 240px;
+	width: 280px;
+	background-color: white;
+	box-shadow: 1px 1px 2px #888888;
+	/* border: solid red; */
+}
+
+
+.webbottom{
+	height:200px;
+	width:100%;
+	border: solid red;
+	/* border: solid red; */
+}
+.webbottom-left{
+	height:60px;
+	width:60px;
+	float:left;
+	/* border: solid red; */
+}
+.blogo{
+	height:50px;
+	width:50px;
+	/* border: solid red; */
+}
+.webbottom-mid{
+	height:185px;
+	width:250px;
+	float:left;
+	/* border: solid red; */
+}
+.bwenzi{
+	height:185px;
+	width:200px;
+	/* border: solid red; */
+}
